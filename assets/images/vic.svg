@@ -1,0 +1,24 @@
+<svg xmlns="http://w3.org" viewBox="0 0 500 200" width="100%" height="100%">
+  <defs>
+    <!-- Drop shadow filter to match the slight shadow effect in the original image -->
+    <filter id="drop-shadow" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Transparent background -->
+  <rect width="100%" height="100%" fill="none"/>
+  
+  <!-- Logo Typography -->
+  <text x="50%" y="55%" 
+        font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" 
+        font-size="64" 
+        font-weight="800" 
+        fill="#00C853" 
+        text-anchor="middle" 
+        dominant-baseline="middle"
+        filter="url(#drop-shadow)"
+        letter-spacing="-0.5px">
+    FocusV
+  </text>
+</svg>
